@@ -1,0 +1,214 @@
+@media (min-width: 576px) {
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Raleway', sans-serif;
+    }
+    .contenedor {
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(#DAE3DE, #DAE3DE, #DAE3DE);
+        /* fondo */
+        background-position: center;
+        /* fondo central */
+        background-size: cover;
+        padding-left: 8%;
+        /* margenes izquierdos */
+        padding-right: 8%;
+        /* margenes derechos */
+        box-sizing: border-box;
+        /* borde */
+    }
+    .menu {
+        height: 12%;
+        display: flex;
+        align-items: center;
+    }
+    .logo {
+        margin-top: 30px;
+        width: 100px;
+    }
+    .icono-menu {
+        width: 30px;
+    }
+    /* estilo para el menu */
+    .menu-nav {
+        flex: 1;
+        text-align: right;
+    }
+    .lista {
+        /* menu sin estilo */
+        list-style: none;
+        /* Menu horizontal*/
+        display: inline-block;
+        /* Separacion entre las opciones del menu*/
+        margin-left: 60px;
+    }
+    .opcion {
+        color: black;
+    }
+    .columna {
+        display: flex;
+        height: 88%;
+        align-items: center;
+    }
+    .fila {
+        flex-basis: 50%;
+        margin-bottom: 35px;
+    }
+    h1 {
+        font-size: 85px;
+    }
+    .parrafo1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .boton-correo {
+        /* largo del boton*/
+        width: 180px;
+        /* ancho del boton*/
+        height: 40px;
+        /* Color del texto dentro del boton*/
+        color: black;
+        font-size: 20px;
+        background-color: #99CCBF;
+        border: 0px;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+    .caja {
+        /* largo del boton*/
+        width: 350px;
+        /* ancho del boton*/
+        height: 40px;
+        /* Color del texto dentro del boton*/
+        color: black;
+        font-size: 20px;
+        background-color: #CFD7E4;
+        border: 0px;
+        border-radius: 10px;
+        margin-top: 30px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+    }
+    .imagen1 {
+        width: 50px;
+        display: inline-block;
+        /* valores izquierdo/ derecho*/
+        padding: 0px 27px;
+        box-sizing: border-box;
+        margin-top: 0px;
+        background-position: center;
+        background-size: cover;
+    }
+    /* ----------TERMINA EL MENU------------*/
+    .contenedor2 {
+        margin-top: 50px;
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+    h2 {
+        padding-top: 40px;
+        font-size: 40px;
+        text-align: center;
+    }
+    .parrafo2 {
+        padding-top: 15px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .catalogo {
+        width: 100%;
+        max-width: 1200px;
+        height: 430px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+    }
+    .catalogo .imagenes {
+        width: 330px;
+        height: 430px;
+        border-radius: 8px;
+        margin: 20px;
+        text-align: center;
+    }
+    .contenedor-adicionales {
+        margin-top: 50px;
+        width: 100%;
+        height: 75vh;
+        background-image: linear-gradient(#DAE3DE, #DAE3DE, #DAE3DE);
+        /* fondo */
+        background-position: center;
+        /* fondo central */
+        background-size: cover;
+        padding-left: 8%;
+        /* margenes izquierdos */
+        padding-right: 8%;
+        /* margenes derechos */
+        box-sizing: border-box;
+        /* borde */
+    }
+    .fila2 {
+        flex-basis: 50%;
+        margin-bottom: 35px;
+    }
+    .imagen2 {
+        width: 70px;
+        display: inline-block;
+        /* valores izquierdo/ derecho*/
+        padding: 0px 27px;
+        box-sizing: border-box;
+        margin-top: 70px;
+        background-position: center;
+        background-size: cover;
+    }
+    .texto-adicionales {
+        margin-top: 40px;
+        font-size: 40px;
+    }
+    .pie-de-pagina-contenedor {
+        margin-top: 50px;
+        width: 100%;
+        height: 30vh;
+        /* fondo */
+        background-position: center;
+        /* fondo central */
+        background-size: cover;
+        padding-left: 8%;
+        /* margenes izquierdos */
+        padding-right: 8%;
+        /* margenes derechos */
+        box-sizing: border-box;
+        /* borde */
+    }
+    .fila3 {
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .columna3 {
+        width: 20%;
+        padding: 0px 15px;
+    }
+    .columna3 h4 {
+        font-size: 20px;
+        color: black;
+        margin-bottom: 30px;
+    }
+    .columna3 ul a {
+        color: #4A674A;
+        font-size: 15px;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .columna3 .redes a {
+        display: inline-block;
+        flex-wrap: wrap;
+        height: 40px;
+        padding: 0px 10px;
+        text-align: center;
+        line-height: 40px;
+        color: black;
+    }
+}
